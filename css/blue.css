@@ -1,0 +1,39 @@
+.pika-title,.pika-label{
+	background-color: #28a4d5;
+	color: #fff;
+}
+.pika-table{
+	background-color: #d9edff;
+}
+.pika-table th{
+	color: #40a6ff;
+}
+.pika-table .is-empty{
+	background-color: #fff;
+}
+.pika-button{
+	color: #333;
+	text-align: center;
+	border: 3px solid #fff;
+}
+.pika-button:hover{
+	background: #28A4D6;
+}
+.is-today .pika-button {
+    color: #fff;
+    font-weight: bold;
+    background-color: #28A4D6;
+}
+.pika-prev,
+.is-rtl .pika-next {
+    float: left;
+    background-image: url("../images/prev.png");
+    *left: 0;
+}
+
+.pika-next,
+.is-rtl .pika-prev {
+    float: right;
+    background-image: url('../images/next.png');
+    *right: 0;
+}
